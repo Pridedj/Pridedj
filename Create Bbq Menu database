@@ -1,0 +1,19 @@
+CREATE TABLE Bbqlist (ItemID INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Large INTEGER, AvgWait INTEGER);
+
+INSERT INTO Bbqlist VALUES (1,"Ribs", 12.99, 15.99, 45);
+INSERT INTO Bbqlist VALUES (2,"Loaded Baked Potato", 8.99, 10.99, 20);
+INSERT INTO Bbqlist VALUES (3,"Pork Sandwich", 6.99, 8.99, 15);
+INSERT INTO Bbqlist VALUES (4,"Chicken Sandiwch", 6.99, 8.99, 20);
+INSERT INTO Bbqlist VALUES (5,"Baked Chicken Platter", 8.99, 10.99, 30);
+INSERT INTO Bbqlist VALUES (6,"Ham Platter", 8.99, 10.99, 20);
+INSERT INTO Bbqlist VALUES (7,"Rib Platter", 17.99, 21.99, 60);
+INSERT INTO Bbqlist VALUES (8,"Turkey Platter", 8.99, 10.99, 25);
+INSERT INTO Bbqlist VALUES (9,"Turkey Sandwich", 5.99, 7.99, 20);
+INSERT INTO Bbqlist VALUES (10,"Baked Sweet Potato", 7.99, 9.56, 25);
+INSERT INTO Bbqlist VALUES (11, "Macaroni Cheese", 3.99, 5.99, 20);
+INSERT INTO Bbqlist VALUES (12, "Baked Beans", 2.99, 4.99, 20);
+INSERT INTO Bbqlist VALUES (13, "Cornbread", .99, 2.99, 35);
+INSERT INTO Bbqlist VALUES (14, "Neckbones", 5.99, 8.99, 40);
+INSERT INTO Bbqlist VALUES (15, "Gizzards", 3.99, 5.99, 35);
+SELECT * FROM Bbqlist ORDER BY price ASC;
+SELECT * FROM Bbqlist ORDER BY AvgWait ASC;
